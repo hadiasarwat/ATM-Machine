@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color:  #4d5f82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.main {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width: 300px;
+    text-align: center;
+}
+.main h1 {
+    color: #ce52af;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.main h4 {
+    color: #4a5568;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cbd5e0;
+    margin-bottom: 15px;
+   
+}
+button {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ce79db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9b48a8;
+}
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.clickTabs {
+    background-color: #cec3c3cb;
+    padding: 10px;
+    text-align: center;
+    font-size: .7em;
+    border-radius: 150px;
+    cursor: pointer;
+    
+}
+.clickTabs:hover{
+    background-color:gray;
+}
+.atmButtons {
+    background-color:rgb(158, 158, 158);
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#amountInput {
+    grid-column: span 3;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #444;
+    background-color: #fff;
+    color: #333;
+}
